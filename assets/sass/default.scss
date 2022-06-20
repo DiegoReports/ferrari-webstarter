@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Open sans';
+  font-style: normal;
+  font-weight: 400;
+}
+
+body, div, article, aside, footer, main, nav, section, ul, ol, button, figure, picture {
+  display: flex;
+}
+
+body {
+  margin: 0;
+  flex-direction: column;
+  background-color: var(--bg-color);
+}
